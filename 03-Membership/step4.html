@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원정보 입력</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/step4.css">
+</head>
+
+<body>
+    <div class="step">
+        <div class="indicator">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <h2>회원정보 입력</h2>
+        <p>회원님의 개인정보를 입력해주시기 바랍니다.</p>
+        <h3>회원정보 입력</h3>
+        <table class="type_2">
+            <caption></caption>
+            <colgroup>
+                <col style="width: 216px; background-color: #838485;">
+                <col>
+            </colgroup>
+            <tbody>
+                <tr>
+                    <th>한글명</th>
+                    <td>
+                        <input type="text" placeholder="한글 성 입력 (예 : 홍)">
+                        <input type="text" placeholder="한글 이름 입력 (예 : 길동)">
+                    </td>
+                </tr>
+                <tr>
+                    <th>영문명</th>
+                    <td>SHIN SEONHEE</td>
+                </tr>
+                <tr>
+                    <th>성별</th>
+                    <td>M</td>
+                </tr>
+                <tr>
+                    <th>거주지역</th>
+                    <td>
+                        <select>
+                            <option>대한민국</option>
+                        </select>
+                        <button href="#">변경</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th>아이디</th>
+                    <td>
+                        <input type="text" placeholder="6~15자리 영문+숫자">
+                        <button href="#">중복확인</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th>비밀번호</th>
+                    <td>
+                        <input type="password" placeholder="영문+숫자+특수문자 8~20자리">
+                    </td>
+                </tr>
+                <tr>
+                    <th>비밀번호 확인</th>
+                    <td>
+                        <input type="password" placeholder="영문+숫자+특수문자 8~20자리">
+                    </td>
+                </tr>
+                <tr>
+                    <th>휴대전화</th>
+                    <td>
+                        <select>
+                            <option>010</option>
+                        </select>
+                        <input type="tel">
+                        -
+                        <input type="tel">
+                    </td>
+                </tr>
+                <tr>
+                    <th>이메일</th>
+                    <td>
+                        <input type="email" placeholder="직접입력">
+                        @
+                        <select>
+                            <option>직접입력</option>
+                        </select>
+                        <input type="email" placeholder="직접입력">
+                    </td>
+                </tr>
+                <tr>
+                    <th>유선전화<br>(선택)</th>
+                    <td>
+                        <select>
+                            <option>02</option>
+                        </select>
+                        <input type="tel" placeholder="중간번호">
+                        -
+                        <input type="tel" placeholder="끝 번호">
+                    </td>
+                </tr>
+                <tr>
+                    <th>주소<br>(선택)</th>
+                    <td>
+                        <input type="text" placeholder="우편번호">
+                        <button href="#">우편번호 검색</button>
+                        <div class="address">
+                            <input type="text" placeholder="기본주소">
+                            <input type="text" placeholder="상세주소">
+                        </div>
+                        <div class="info">
+                            <p>제공해주신 주소는 이벤트 또는 우수회원 승급 서비스 제공을 위해 이용됩니다.</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>뉴스레터 및 상품정보,<br>이벤트 등 수신<br>(선택)</th>
+                    <td>
+                        <input type="checkbox"><label for="">이메일</label>
+                        <input type="checkbox"><label for="">SMS</label>
+                        <div class="info">
+                            <p>수신에 동의하시면 아시아나항공의 뉴스레터 및 상품정보,이벤트 등의 안내를 받아보실 수 있습니다.</p>
+                            <p>회원정보,예약 및 항공기 운항정보,서비스 주요정책 관련내용은 수신동의 여부와 관계 없이 발송됩니다.</p>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="family">
+            <h3>패밀리사이트 가입 (선택)</h3>
+            <p>하나의 ID와 비밀번호로 운영하는 사이트를 동시에 가입하실 수 있습니다.</p>
+            <p>아시아나 인터넷 면세점에 동시 가입을 원하시면 하단에서 선택하시기 바랍니다.</p>
+            <div class="dutyfree">
+            <input type="checkbox">
+            <label>아시아나 인터넷 면세점 가입(http://dutyfree.flyasiana.com)</label>
+            </div>
+            <div>
+            <input type="checkbox">
+            <label for="">양관에 동의합니다.</label>
+            <button>내용보기</button>
+            </div>
+        </div>
+
+        <div class="login">
+            <div>
+                <span class="kakao"><strong>카카오톡</strong> 간편로그인</span>
+                <a href="#">연결하기</a>
+            </div>
+            <div>
+                <span class="face"><strong>페이스북</strong> 간편로그인</span>
+                <a href="#">연결하기</a>
+            </div>
+            <div>
+                <span class="naver"><strong>네이버</strong> 간편로그인</span>
+                <a href="#">연결하기</a>
+            </div>
+        </div>
+
+        <div class="step4_btn">
+            <a href="#" class="btn cancel">취소</a>
+            <a href="#" class="btn">동의</a>
+        </div>
+    </div>
+</body>
+
+</html>

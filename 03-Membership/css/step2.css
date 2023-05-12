@@ -1,0 +1,10 @@
+.indicator span:nth-of-type(2){background-position: 0 0;}
+h3 + p{margin: 30px 0 20px;}
+.bottom{display: flex; justify-content: space-between;}
+.bottom .box{width: calc(50% - 10px); height: 210px; margin-bottom: 100px; background-color: #f7f7f7; display: flex; justify-content: center; align-items: center;}
+.bottom .box .ico{display: block; width: 70px; height: 70px; margin-right: 70px; background: url(../img/icoset_m_header.png) no-repeat;}
+.bottom .box .info p{margin: 15px 0 20px;}
+.bottom .sell .ico{background-position: -103px -150px;}
+.bottom .ipin .ico{background-position: -9px -152px;}
+.bottom .ipin .info .info_ico{display: inline-block;width: 20px; height: 20px; background: url(../img/icon_info.png); vertical-align: -2px;}
+.bottom .ipin .info .info_ico:hover{background-position: 0 -20px;}

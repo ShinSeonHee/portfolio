@@ -1,0 +1,42 @@
+.indicator span:nth-of-type(4){background-position: 0 0;}
+
+table.type_2{margin: 16px 0 52px; border-top: 1px solid #000;}
+table.type_2 th{color: #fff;}
+table.type_2 button{padding: 10px 21px; font-size: 13px; border: 1px solid #ccc;}
+table.type_2 button + div{margin-top: 15px;}
+table.type_2 .address input{width: 433px;}
+table.type_2 .info{padding: 15px 0;}
+table.type_2 .info p{position: relative; padding: 0 10px;}
+table.type_2 .info p::before{content: '· '; position: absolute; left: 0;}
+table.type_2 input[type="checkbox"]{vertical-align: -2px;}
+table.type_2 input[type="checkbox"] + label{margin-right: 38px; font-size: 15px;}
+table.type_2 a{font-weight: bold; color: #000;}
+table.type_2 select{width: 200px;}
+table.type_2 tr:nth-of-type(8) select,
+table.type_2 tr:nth-of-type(10) select{width: 120px;}
+
+/* family */
+.family h3{margin-bottom: 15px;}
+.family p{position: relative; padding: 0 10px; margin: 20px 0;}
+.family p::before{content: '· '; position: absolute; left: 0;}
+.family .dutyfree{width: 100%; height: 68px; padding: 0 28px; margin-bottom: 22px;display: flex; align-items: center; border: 1px solid #ccc;}
+.family .dutyfree label{font-weight: bold; font-size: 16px;}
+.family div input{vertical-align: middle;}
+.family div label{font-weight: bold; font-size: 16px;}
+.family button{position: relative; display: inline-block; width: 100px; height: 33px; padding-left: 10px; margin-left: 30px;  text-align: left; line-height: 30px; font-size: 15px; color: #000; border: 1px solid #ccc;}
+.family button:hover{border: 1px solid #000;}
+.family button::after{content: ''; position: absolute; right: 7px; top: 50%; transform: translateY(-50%); width: 11px; height: 11px; background: url(../img/mainicon.png) no-repeat -343px -38px;}
+
+/* login */
+.login{margin-top: 50px; display: flex; justify-content: space-between;}
+.login div{width: calc(33.333% - 15px); font-size: 22px;}
+.login span{position: relative; display: block; height: 100px; background-color: #f0f0f0; padding: 40px 60px 40px 100px; margin-bottom: 30px;}
+.login a{display: inline-block; width: 90px; height: 40px; padding: 10px 15px;position: relative; left: 50%; transform: translateX(-50%); font-weight: bold;font-size: 14px; color: #000; border: 1px solid #ccc;}
+.login a:hover{border: 1px solid #000;}
+.login .kakao::before{content: ''; position: absolute; left: 30px; top: 50%; transform: translateY(-30%); width: 50px; height: 50px; background: url(../img/icon_login_kakao.png) no-repeat;}
+.login .face::before{content: ''; position: absolute; left: 50px; top: 50%; transform: translateY(-40%); width: 50px; height: 50px; background: url(../img/icon_login_facebook.png) no-repeat;}
+.login .naver::before{content: ''; position: absolute; left: 40px; top: 50%; transform: translateY(-30%); width: 50px; height: 50px; background: url(../img/icon_login_naver.png) no-repeat;}
+
+.step4_btn{margin: 60px auto; width: 310px; display: flex; justify-content: space-between;}
+.step4_btn .cancel{border: 1px solid #ccc; background-color: #fff; color: #000;}
+.step4_btn .cancel:hover{border: 1px solid #000;}

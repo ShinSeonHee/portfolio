@@ -1,0 +1,8 @@
+.indicator span:nth-of-type(1){background-position: 0 0;}
+.check{height: 90px; border-top: 1px solid #f8f7f7; display: flex; align-items: center; font-weight: bold;}
+
+.check label span{color: #6c2d00;}
+.box{padding: 40px 0 0 30px; height: 200px; border-top: 2px solid #666666; background-color: #f7f7f7; overflow: auto; line-height: 38px;}
+
+.step1_btn{margin: 60px auto; width: 320px; display: flex; justify-content: space-between;}
+.step1_btn .cancel{border: 1px solid #cccccc; background-color: #fff; color: #000;}
