@@ -1,6 +1,7 @@
 # 신선희(Shin Seon Hee)
 
 * 웹 개발자를 목표로 열심히 공부 중입니다.
+* E-mail : ssh56578@gmail.com
 * tel : 010-8729-0721
 
 ## Stack
